@@ -22,7 +22,7 @@
 
 
 
-<link rel="image_src" href="rob.jpg" />
+<link rel="image_src" href="get.jpg" />
 <meta property="og:image" content="img/background.jpg" />
 <meta property="og:description" content="java! Lighter | Official" />
 <meta property="og:site_name" content="Official"/>
@@ -33,29 +33,40 @@
 <style>
         body {
             background-image: url(get.jpg);
-            background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Hintergrund abdeckt */
+            background-size: cover; 
+text-align: center;
+/* Das Bild wird so skaliert, dass es den gesamten Hintergrund abdeckt */
         }
     </style>
 
 </head>
 
 
-<body> 
-  <audio controls autoplay>
-        <source src="music.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+_
 
-<style>
+<head>
+    <style>
         body {
-            background-image: url(get.jpg);
-            background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Hintergrund abdeckt */
+            background-image: url('hintergrundbild.jpg');
+            background-size: cover;
+            text-align: center;
         }
     </style>
+</head>
+_
 
+<body> 
+<div>
+        
+        <button onclick="window.location.href='neueseite.html'">Weiter</button>
+        <audio controls autoplay>
+            <source src="music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 
+ 
 
-<center>
     <h1>java! Lighter</h1>
     <form id="passwordForm" onsubmit="checkPassword(); return false;">
         <label for="password">Enter Password:</label>
@@ -170,12 +181,4 @@
 </div>
 
 </body>
-
-
-
-
-
-</center>
-
-
 </html>
